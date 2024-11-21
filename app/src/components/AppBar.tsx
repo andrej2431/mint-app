@@ -10,8 +10,8 @@ export const AppBar: FC = () => {
       <Image alt="heehee logo" src="/heeheeLogo.webp" height={50} width={50} className="object-contain" />
     </div>
     <span className="text-center font-saira font-bold flex-grow text-lg sm:text-xl  md:text-3xl lg:text-4xl px-2">$HeeHee x Revolware NFT collection</span>
-    <div className="w-full sm:w-auto mt-2 sm:mt-0 flex justify-center">
-      <WalletMultiButton />
+    <div className="w-full sm:w-auto mt-2 sm:mt-0 flex justify-center min-w-[150px]">
+      <WalletMultiButton className='' />
     </div>
   </div>
     )

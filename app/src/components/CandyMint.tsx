@@ -10,7 +10,7 @@ import { setComputeUnitLimit } from '@metaplex-foundation/mpl-toolbox';
 import { clusterApiUrl } from '@solana/web3.js';
 import * as bs58 from 'bs58';
 
-const quicknodeEndpoint = process.env.NEXT_PUBLIC_RPC || clusterApiUrl('devnet');
+const quicknodeEndpoint = process.env.NEXT_PUBLIC_RPC;
 const candyMachineAddress = publicKey(process.env.NEXT_PUBLIC_CANDY_MACHINE_ID);
 const treasury = publicKey(process.env.NEXT_PUBLIC_TREASURY);
 
