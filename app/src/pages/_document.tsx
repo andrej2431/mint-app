@@ -12,6 +12,7 @@ class MyDocument extends Document {
       <Html>
         <Head>
         <link rel="shortcut icon" href="/heeheeLogo.webp"/>
+      
         </Head>
         <body>
           <Main />

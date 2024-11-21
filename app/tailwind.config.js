@@ -18,6 +18,7 @@ module.exports = {
           fontFamily: {
             display: ['PT Mono, monospace'],
             body: ['Inter, sans-serif'],
+            saira: ['var(--font-saira), sans-serif']
           },
           'primary': '#000000',           /* Primary color */
           'primary-focus': '#9945FF',     /* Primary color - focused */
@@ -43,7 +44,7 @@ module.exports = {
           'info': '#2094f3',              /* Info */
           'success': '#009485',           /* Success */
           'warning': '#ff9900',           /* Warning */
-          'error': '#ff5724',             /* Error */
+          'error': '#black',             /* Error */
         },
       },
       // backup themes:
